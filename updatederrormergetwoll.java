@@ -393,7 +393,7 @@ public class Main {
       tail.next = null;
     }
     
-    public static int addListHelper(Node one, int pv1, Node two, int pv2, LInkedList res){
+    public static int addListHelper(Node one, int pv1, Node two, int pv2, LinkedList res){
     
     if(one==null && two == null){
         return 0;
